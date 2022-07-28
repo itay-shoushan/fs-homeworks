@@ -1,0 +1,11 @@
+.App {
+    height: 100%;
+	color: white;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header{
+    grid-column: span 2;
+}
