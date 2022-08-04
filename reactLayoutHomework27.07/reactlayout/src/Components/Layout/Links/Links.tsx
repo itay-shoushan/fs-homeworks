@@ -4,7 +4,6 @@ function Links(): JSX.Element {
   return (
     <div className="Links">
       <h1>recommended shoes links:</h1>
-      <p>
         <ul>
           <li>
             <a
@@ -47,7 +46,6 @@ function Links(): JSX.Element {
             </a>
           </li>
         </ul>
-      </p>
     </div>
   );
 }
